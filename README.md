@@ -1,6 +1,6 @@
-# Benoît Daigle
+# Benoit Daigle
 
-**Data Scientist** — Maîtrise en intelligence artificielle, Université Laval
+**Étudiant** — Maîtrise en intelligence artificielle, Université Laval
 
 📍 Mirabel, QC &nbsp;|&nbsp; 📧 benoit.daigle@yahoo.com &nbsp;|&nbsp; 📱 438-405-4262
 
@@ -49,11 +49,11 @@ Modélisation et prédiction des tendances haussières ou baissières sur un hor
 ##  Éducation
 
 **Maîtrise en intelligence artificielle** — Université Laval
-*Janvier 2026 – Aujourd'hui*
+*(Janvier 2026 – Aujourd'hui)*
 Apprentissage des réseaux de neurones profonds et de leur modélisation, méthodes d'analyse de données et de statistiques avancées.
 
 **Baccalauréat en finance quantitative** — Université Laval
-*2022 – 2025*
+*(Septembre 2022 – Décembre 2025)*
 Python, C++, R, VBA — compétences élaborées en finance, mathématiques et statistiques.
 
 ---
@@ -61,7 +61,7 @@ Python, C++, R, VBA — compétences élaborées en finance, mathématiques et s
 ##  Expérience
 
 **Business Process Analyst (stage)** — Trans-Canada Capital, Montréal
-*Mai 2023 – Août 2023*
+*(Mai 2023 – Août 2023)*
 Cartographie des processus opérationnels de l'entreprise et facilitation de la compréhension de l'utilisation des données entre les différents départements. Prefect, Microsoft SQL, suite Office.
 
 ---
