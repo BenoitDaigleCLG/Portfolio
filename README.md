@@ -6,7 +6,7 @@
 
 [LinkedIn](https://www.linkedin.com/in/benoit-daigle-1820a0251/) &nbsp;|&nbsp; 
 [GitHub]([#](https://github.com/BenoitDaigleCLG)) &nbsp;|&nbsp;
-[CV (PDF)](https://github.com/BenoitDaigleCLG/Portfolio/blob/main/CV_2026_BenoitDaigle.pdf)
+[CV (PDF)]([https://github.com/BenoitDaigleCLG/Portfolio/blob/main/CV_2026_BenoitDaigle.pdf](https://raw.githubusercontent.com/BenoitDaigleCLG/Portfolio/main/CV_2026_BenoitDaigle.pdf))
 
 ---
 
