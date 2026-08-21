@@ -1,2 +1,10 @@
-title: Benoit Daigle
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
+
+title: Benoît Daigle
+description: "Data Scientist | Maîtrise en intelligence artificielle — Université Laval"
+
+# Optionnel : personnalise l'URL sociale affichée en haut de page
+# github_username: tonPseudoGitHub
+# linkedin_username: tonPseudoLinkedIn
+
+show_downloads: false
