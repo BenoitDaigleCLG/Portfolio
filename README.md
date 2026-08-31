@@ -1,6 +1,6 @@
 # Benoit Daigle
-**Étudiant** — Maîtrise en intelligence artificielle, Université Laval
-📍 Mirabel, QC &nbsp;|&nbsp; 📧 benoit.daigle@yahoo.com &nbsp;|&nbsp; 📱 438-405-4262
+**Étudiant** — Maîtrise en intelligence artificielle, Université Laval  
+📍 Mirabel, QC &nbsp;•&nbsp; 📧 [benoit.daigle@yahoo.com](mailto:benoit.daigle@yahoo.com) &nbsp;•&nbsp; 📱 438-405-4262
 
 [LinkedIn](https://www.linkedin.com/in/benoit-daigle-1820a0251/) &nbsp;|&nbsp; [CV (PDF)](https://raw.githubusercontent.com/BenoitDaigleCLG/Portfolio/main/CV_2026_BenoitDaigle.pdf)
 
