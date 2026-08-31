@@ -13,23 +13,22 @@
 *Hiver 2026*
 
 Classification d’images de résonance magnétique (4 classes) par modification de l’architecture YOLOv11 en Python, avec pour objectif d’améliorer la précision du modèle de base tout en conservant/améliorant le rappel.  
-**Technologies :** Python · PyTorch · YOLOv11 &nbsp;|&nbsp; [Voir le projet →](projets/tumeurs-cerebrales/)
-[→ Voir le projet](projets/tumeurs-cerebrales/)
+**Outils et bibliothèques :** Python · PyTorch · YOLOv11 &nbsp;|&nbsp; [Voir le projet →](projets/tumeurs-cerebrales/)
 ---
 ### [Prédiction du rang de repêchage — LNH](projets/prediction_LNH/)
 *Hiver 2026*
 
 Prédiction du rang de repêchage des joueurs de la LNH à l'aide de régression linéaire, forêts aléatoires et analyse en composantes principales à partir de statistiques de performance et de mesures physiques.  
-**Technologies :** Python · Scikit-Learn · Pandas · NumPy  
+**Outils et bibliothèques :** Python · Scikit-Learn · Pandas · NumPy  
 [→ Voir le projet](projets/prediction_LNH/)
 
 ---
 
 ### [Prédiction des rendements du S&P 500](projets/prediction_SP500/)
-*Hiver 2026 (Revue Été 2026)*
+*Automne 2025 (Revue Été 2026)*
 
 Modélisation et prédiction de la direction des rendements à 21 jours via ACP, XGBoost et validation walk-forward, avec analyse critique d'un biais d'anticipation (*look-ahead bias*) identifié lors de la revue du projet.  
-**Technologies :** Python · R · XGBoost · Scikit-Learn · quantmod  
+**Outils et bibliothèques :** Python · R · XGBoost · Scikit-Learn · quantmod  
 [→ Voir le projet](projets/prediction_SP500/)
 ---
 ##  Éducation
