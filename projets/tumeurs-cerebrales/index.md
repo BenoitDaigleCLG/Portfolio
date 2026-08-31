@@ -34,4 +34,4 @@ L'attention légère (PSA) s'est révélée l'optimisation la plus stable du pro
 
 **Technologies :** Python · PyTorch · Ultralytics YOLO11 · Pandas · Google Colab
 
-[Voir le rapport complet (PDF)](rapport-tumeurs-cerebrales.pdf) &nbsp;|&nbsp; [Voir le code sur GitHub](#)
+[Voir le rapport complet (PDF)](rapport-tumeurs-cerebrales.pdf) &nbsp;|&nbsp; [Voir le code sur GitHub](code/)
