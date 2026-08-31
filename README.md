@@ -19,7 +19,7 @@ Classification d'images de résonance magnétique (4 classes) par modification d
 *Hiver 2026*
 Prédiction du rang de repêchage des joueurs de la LNH à l'aide de régression linéaire, forêts aléatoires et analyse en composantes principales.
 **Technologies :** Python, Scikit-Learn
-[→ Voir le projet](#)
+[→ Voir le projet](projets/prediction_LNH)
 ---
 ###  Prédiction du S&P 500
 *Automne 2026*
