@@ -1,47 +1,37 @@
 # Détection de tumeurs cérébrales
 ### Réseau de neurones profonds — Hiver 2026
 
-[← Retour au portfolio](../)
+[← Retour au portfolio](../../)
 
 ---
 
 ## Contexte
 
-Projet réalisé en équipe de 5 dans le cadre du cours GLO-7030 (Université Laval), explorant différentes modifications architecturales de la famille YOLO (v8 et v11) pour la détection et la localisation de tumeurs cérébrales sur IRM. Deux axes ont été étudiés : l'intégration de mécanismes d'attention (PSA, C2PSA, CBAM) et l'ajout d'une tête de détection haute résolution pour mieux capter les micro-lésions.
+Projet réalisé en équipe de 5 dans le cadre du cours GLO-7030 (Université Laval), explorant différentes modifications architecturales de la famille YOLO pour la détection et la localisation de tumeurs cérébrales sur IRM (Gliome, Méningiome, Tumeur pituitaire, Sans tumeur).
 
-En imagerie médicale, un faux négatif — une tumeur non détectée — peut retarder un diagnostic vital. L'enjeu principal était donc de comprendre comment ces modifications affectent le compromis entre sensibilité (rappel) et précision de délimitation spatiale.
+**Ma contribution :** conception et implémentation de l'architecture avec mécanisme d'attention **PSA (Position-Sensitive Attention)**, incluant le script d'entraînement et le pipeline de génération des résultats. Le reste du rapport présente les contributions de l'équipe sur les autres axes explorés (CBAM, architecture haute résolution HR-D).
 
-## Données
+## Ce que j'ai développé
 
-**Brain Tumor Detection Dataset** (Kaggle) : 3 903 images IRM annotées, réparties en 4 classes — Gliome, Méningiome, Tumeur pituitaire, Sans tumeur (63% entraînement / 28% validation / 10% test).
+### 1. Architecture custom (`architecture_custom.py`)
+Génération dynamique d'un fichier de configuration YOLO11 modifié, intégrant une couche d'attention **PSA** insérée stratégiquement après la branche dédiée aux petits détails (contours fins), avant la tête de détection. L'entraînement s'est fait à résolution réduite (512×512) pour compenser la surcharge calculatoire du mécanisme d'attention.
 
-*Note : les expériences sur YOLOv8n ont utilisé un second dataset (Roboflow, 1 956 images, 5 classes) en raison de contraintes de format.*
+### 2. Script d'entraînement (`Main_2.py`)
+Pipeline complet configurant automatiquement le dataset (chemins RoboFlow), chargeant les poids pré-entraînés YOLO11 comme point de départ, puis lançant l'entraînement avec les hyperparamètres du projet (AdamW, seed fixe à 42, early stopping, mosaic augmentation désactivé en fin d'entraînement).
 
-## Méthodologie
+### 3. Génération des résultats (`generer_resultats.py`)
+Script d'évaluation calculant les métriques clés (Précision, Rappel, F1-Score, mAP@50) sur les jeux de validation et de test, globalement et par classe pathologique, exportées dans un rapport texte structuré avec Pandas.
 
-- **Axe 1 — Attention :** intégration des modules **PSA** (Position-Sensitive Attention) sur YOLOv11n et **CBAM** (Convolutional Block Attention Module) sur YOLOv8n et YOLOv11s, positionnés stratégiquement pour affiner la détection des contours flous (notamment les Gliomes).
-- **Axe 2 — Haute résolution :** conception d'une architecture expérimentale **YOLOv11-HR-D**, ajoutant une 4ème tête de détection (stride 4, grille 160×160) pour les micro-lésions, combinée à des connexions résiduelles profondes (C3k2).
-- Entraînement sur GPU Tesla T4 (Google Colab), 50 époques, optimiseur AdamW, augmentation de données (RandAugment, Mosaic).
+## Résultats clés (PSA)
 
-## Résultats
-
-| Modèle | Précision | Rappel | mAP@50 | mAP@50-95 |
-|---|---|---|---|---|
-| YOLOv11n baseline | 0.920 | 0.892 | 0.946 | 0.739 |
-| YOLOv11s + P2 Head + C2PSA | **0.945** | **0.912** | **0.957** | 0.752 |
-| YOLOv11-HR-D (P2 + C3k2) | 0.898 | 0.888 | 0.940 | **0.741** |
-
-**Points clés :**
-- Le module **PSA** améliore toutes les métriques simultanément, avec la plus forte hausse sur la classe Gliome (+0,9% en mAP@50) — la classe la plus difficile à délimiter en raison de ses contours diffus.
-- L'architecture **HR-D** est la seule à améliorer le mAP@50-95 (précision géométrique stricte), au prix d'une légère baisse du rappel — un compromis clinique entre outil de *triage* rapide et outil d'assistance chirurgicale de précision.
-- Le CBAM appliqué de façon massive (YOLOv11s) a dégradé le rappel de 1,4 point, suggérant qu'un excès de modules d'attention peut nuire à l'extraction de caractéristiques.
+Le module PSA a amélioré toutes les métriques simultanément par rapport au modèle de base, avec la plus forte hausse observée sur la classe **Gliome** (la plus difficile à délimiter en raison de ses contours diffus). Détails complets dans le rapport ci-dessous.
 
 ## Conclusion
 
-L'attention légère (PSA) s'est révélée l'optimisation la plus stable, améliorant la détection sans alourdir le modèle. Les architectures plus complexes (HR-D, CBAM massif) imposent des compromis cliniques clairs entre sensibilité et précision de délimitation. Un entraînement plus long (150 époques + early-stopping) serait nécessaire pour permettre aux architectures haute-résolution de converger pleinement.
+L'attention légère (PSA) s'est révélée l'optimisation la plus stable du projet, améliorant la détection de textures diffuses sans alourdir significativement le modèle — contrairement aux architectures plus complexes testées par l'équipe (CBAM massif, haute résolution), qui imposaient des compromis plus marqués entre sensibilité et précision.
 
 ---
 
-**Technologies :** Python · PyTorch · Ultralytics YOLO · Google Colab
+**Technologies :** Python · PyTorch · Ultralytics YOLO11 · Pandas · Google Colab
 
-[Voir le rapport complet (PDF)](https://raw.githubusercontent.com/BenoitDaigleCLG/Portfolio/main/rapport-tumeurs-cerebrales.pdf) &nbsp;|&nbsp; [Voir le code sur GitHub](#)
+[Voir le rapport complet (PDF)](rapport-tumeurs-cerebrales.pdf) &nbsp;|&nbsp; [Voir le code sur GitHub](#)
