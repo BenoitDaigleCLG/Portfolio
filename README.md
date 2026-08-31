@@ -23,7 +23,7 @@
 Classification d'images de résonance magnétique (4 classes) par modification de l'architecture YOLOv11 en Python, avec pour objectif d'améliorer la précision du modèle de base tout en conservant/améliorant le rappel.
 
 **Technologies :** Python, PyTorch/TensorFlow
-[→ Voir le projet](projets/tumeurs-cerebrales.html)
+[→ Voir le projet]([projets/tumeurs-cerebrales.html](https://benoitdaigleclg.github.io/Portfolio/projets/tumeurs-cerebrales/))
 
 ---
 
