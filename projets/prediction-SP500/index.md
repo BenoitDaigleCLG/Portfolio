@@ -44,4 +44,4 @@ Cette révision m'a permis de documenter l'importance cruciale de purger les don
 
 **Technologies :** R (quantmod, TTR, FactoMineR, data.table) · Python (XGBoost, Scikit-Learn, Pandas, NumPy, Matplotlib)
 
-[Voir le poster du projet (PDF)](Poster%20Projet%20Analyse%20des%20Donn%C3%A9es.pdf) &nbsp;|&nbsp; [Voir le code sur GitHub](https://github.com/BenoitDaigleCLG/Portfolio/tree/main/projets/prediction_SP500/code)
+[Voir le poster du projet (PDF)](Poster_projet.pdf) &nbsp;|&nbsp; [Voir le code sur GitHub](https://github.com/BenoitDaigleCLG/Portfolio/tree/main/projets/prediction_SP500/code)
