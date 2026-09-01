@@ -23,7 +23,7 @@ Prédiction du rang de repêchage des joueurs de la LNH à l'aide de régression
 
 
 
-### [Prédiction des rendements du S&P 500](projets/prediction_SP500/)
+### [Prédiction des rendements du S&P 500](projets/prediction-SP500/)
 *Automne 2025 (Revue Été 2026)*
 
 Modélisation et prédiction de la direction des rendements à 21 jours via amalyse en composantes principales, XGBoost et validation walk-forward, avec analyse critique d'un biais d'anticipation (*look-ahead bias*) identifié lors de la revue du projet.  
