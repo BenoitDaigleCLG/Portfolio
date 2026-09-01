@@ -28,21 +28,23 @@ Prédiction du rang de repêchage des joueurs de la LNH à l'aide de régression
 *Automne 2025 (Revue Été 2026)*
 
 Modélisation et prédiction de la direction des rendements à 21 jours via amalyse en composantes principales, XGBoost et validation walk-forward, avec analyse critique d'un biais d'anticipation (*look-ahead bias*) identifié lors de la revue du projet.  
-**Outils et bibliothèques :** Python · R · XGBoost · Scikit-Learn · quantmod  
+**Outils et bibliothèques :** Python · R · XGBoost · Scikit-Learn · Quantmod  
 [→ Voir le projet](projets/prediction_SP500/)
 
 ##  Éducation
-**Maîtrise en intelligence artificielle** — Université Laval
-*(Janvier 2026 – Aujourd'hui)*
+
+**Maîtrise en intelligence artificielle** — Université Laval<br>
+*Janvier 2026 – Aujourd'hui*<br>
 Apprentissage des réseaux de neurones profonds et de leur modélisation, méthodes d'analyse de données et de statistiques avancées.
 
-**Baccalauréat en finance quantitative** — Université Laval
-*(Septembre 2022 – Décembre 2025)*
+**Baccalauréat en finance quantitative** — Université Laval<br>
+*Septembre 2022 – Décembre 2025*<br>
 Python, C++, R, VBA — compétences élaborées en finance, mathématiques et statistiques.
 
 ##  Expérience
-**Business Process Analyst (stage)** — Trans-Canada Capital, Montréal
-*(Mai 2023 – Août 2023)*
+
+**Business Process Analyst (stage)** — Trans-Canada Capital, Montréal<br>
+*Mai 2023 – Août 2023*<br>
 Cartographie des processus opérationnels de l'entreprise et facilitation de la compréhension de l'utilisation des données entre les différents départements. Prefect, Microsoft SQL, suite Office.
 
 ##  Compétences techniques
