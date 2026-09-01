@@ -46,8 +46,9 @@ Python, C++, R, VBA — compétences élaborées en finance, mathématiques et s
 Cartographie des processus opérationnels de l'entreprise et facilitation de la compréhension de l'utilisation des données entre les différents départements. Prefect, Microsoft SQL, suite Office.
 
 ##  Compétences techniques
-**Langages :** Python · C++ · C# · R · VBA · SQL · Matlab
-**Librairies :** PyTorch/TensorFlow · Scikit-Learn · Pandas · NumPy
+
+**Langages :** Python · C++ · C# · R · VBA · SQL · Matlab<br>
+**Librairies :** PyTorch/TensorFlow · Scikit-Learn · Pandas · NumPy<br>
 **Langues :** Français (natif) · Anglais (excellent niveau)
 
 N'hésitez pas à me contacter à **benoit.daigle@yahoo.com** ou par téléphone au **438-405-4262**.
