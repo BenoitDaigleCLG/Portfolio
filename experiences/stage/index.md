@@ -27,9 +27,9 @@ Stage professionnel réalisé du 8 mai au 18 août 2023 au sein de l'équipe de 
 - **Automatisation et code :** Familiarisation avec **Prefect**, une application permettant de coordonner et de planifier des scripts à des moments précis de la journée. 
 - **Programmation :** Lecture et compréhension de code **Python** et **C++** écrit par mes collègues pour faire le pont avec mes propres cartographies.
 
-### 3. Analyse stratégique et recommandations corporatives
-- **Diagnostic de l'entreprise :** Réalisation d'une analyse de marché (Modèle de Porter) et d'une matrice FFOM (Forces, Faiblesses, Opportunités, Menaces) de TCC.
-- **Recommandations internes :** Identification de deux problématiques corporatives (le manque de clarté de la hiérarchie pour les nouveaux employés et le manque de communication des objectifs entre les équipes) et présentation de solutions concrètes (création d'une interface hiérarchique et envois de suivis mensuels).
+### 3. Analyse stratégique et initiatives internes
+- **Diagnostic organisationnel :** Réalisation d'une analyse sectorielle (modèle de Porter) et d'une matrice FFOM appliquée aux activités de l'entreprise.
+- **Amélioration continue :** Élaboration de propositions pratiques visant à accélérer l'intégration des nouvelles recrues et à renforcer la synergie et la visibilité entre les départements.
 
 ## Bilan
 
