@@ -5,7 +5,11 @@
 
 
 ##  À propos
-Étudiant à la maîtrise en intelligence artificielle à l'Université Laval, avec un baccalauréat en finance quantitative. Je m'intéresse à l'apprentissage profond, à l'analyse de données appliquée et à la modélisation statistique, avec une expérience concrète en Python, R, C++, PyTorch/TensorFlow et Scikit-Learn à travers plusieurs projets personnels et académiques.
+Étudiant à la maîtrise en intelligence artificielle à l’Université Laval, j'ai aussi un bac en finance quantitative.
+
+Mon intérêt pour le code a commencé tout simplement avec ma passion pour les jeux vidéo : je voulais comprendre comment créer mon propre projet. Vers la fin de mon secondaire, j'ai aussi commencé à m'intéresser aux marchés financiers et à gérer mes propres investissements. Faire un bac en finance quantitative a donc été une suite logique.
+
+Avec les avancées impressionnantes de l'IA ces dernières années, j'ai eu envie de plonger à fond dans le domaine. Aujourd’hui, je combine ces deux univers pour développer des modèles d'apprentissage profond et analyser des données complexes, principalement avec Python (PyTorch, Scikit-Learn), R et C++.
 
 ##  Projets
 
