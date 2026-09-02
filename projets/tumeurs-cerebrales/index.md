@@ -1,5 +1,4 @@
-# Détection de tumeurs cérébrales
-### Réseau de neurones profonds — Hiver 2026
+### Apprentissage par réseaux de neurones profonds (GLO-7030) — Hiver 2026
 
 [← Retour au portfolio](../../)
 
