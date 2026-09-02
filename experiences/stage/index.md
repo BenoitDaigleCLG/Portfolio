@@ -37,6 +37,6 @@ Ce stage m'a permis de m'intégrer rapidement dans un environnement professionne
 
 ---
 
-**Technologies et outils utilisés :** Microsoft Visio · Microsoft SQL · DBeaver · Python · Prefect · Microsoft Office (Excel, Teams, Outlook)
+**Technologies et outils utilisés :** Microsoft Visio · Microsoft SQL · Python · Prefect · Microsoft Office (Excel, Teams, Outlook)
 
 [Pour accéder à mon évaluation de stage complète (PDF)](Evaluation_stage_TCC.pdf)
