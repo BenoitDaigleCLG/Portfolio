@@ -1,8 +1,9 @@
 ---
-title: "Détection de tumeurs cérébrales"
+title: "Benoit Daigle"
 ---
 
 ### Apprentissage par réseaux de neurones profonds (GLO-7030) — Hiver 2026
+### Détection de tumeurs cérébrales
 
 [← Retour au portfolio](../../)
 
