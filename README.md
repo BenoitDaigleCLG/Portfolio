@@ -55,6 +55,7 @@ Python, C++, R, VBA — compétences élaborées en finance, mathématiques et s
 **Business Process Analyst (stage)** — Trans-Canada Capital, Montréal<br>
 *Mai 2023 – Août 2023*<br>
 Cartographie des processus opérationnels de l'entreprise et facilitation de la compréhension de l'utilisation des données entre les différents départements. Prefect, Microsoft SQL, suite Office.
+[En savoir plus sur mon stage](experiences/stage/)
 
 ##  Compétences techniques
 
