@@ -1,5 +1,5 @@
 ---
-title: "Prédiction des rendements du SP& 500"
+title: "Prédiction des rendements du S&P 500"
 ---
 
 ### Analyse de données (STT-2200) — Automne 2025 (Revue Été 2026)
