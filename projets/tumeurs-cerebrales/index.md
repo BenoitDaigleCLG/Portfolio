@@ -47,7 +47,7 @@ Le module PSA a amélioré toutes les métriques simultanément par rapport au m
 *Figure 3 : Matrice de confusion sur le jeu de test.*
 
 L'analyse de la matrice de confusion met en lumière la réalité clinique du modèle :
-- **Excellence sur les tissus sains :** Un score quasi parfait sur la classe *No Tumor* (142 détections correctes sur 143), validant l'absence d'alarmes intempestives sur du parenchyme cérébral sain.
+- **Excellence sur les tissus sains :** Un score quasi parfait sur la classe *No Tumor* (142 détections correctes sur 143).
 - **Le défi persistant du Gliome :** Bien que le PSA apporte un gain net sur cette classe, elle concentre l'essentiel des faux négatifs (43 cas classés en arrière-plan/manqués) et des faux positifs (78 boîtes tracées sur l'arrière-plan). Ce comportement illustre le compromis complexe entre sensibilité de détection et délimitation de bordures infiltrantes.
 
 ## Conclusion
