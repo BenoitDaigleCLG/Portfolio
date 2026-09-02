@@ -1,5 +1,4 @@
-# Prédiction des rendements du S&P 500
-### Analyse de données — Automne 2025 (Revue Été 2026)
+### Analyse de données (STT-2200) — Automne 2025 (Revue Été 2026)
 
 [← Retour au portfolio](../../)
 
