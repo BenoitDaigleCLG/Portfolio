@@ -1,0 +1,26 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Palette "Data Science"
+$header-heading-color: #ffffff;
+$header-bg-color: #0f2540;
+$header-bg-color-secondary: #1b3a5c;
+
+$section-headings-color: #144d6e;
+$body-text-color: #2d2d2d;
+$body-link-color: #0f8a8a;
+$blockquote-color: #6a737d;
+
+$body-bg: #ffffff;
+
+$border-color: #dce6ea;
+$table-border-color: #dce6ea;
+$code-bg-color: #f2f6f8;
+
+.main-content h1,
+.main-content h2 {
+  border-bottom: 1px solid $border-color;
+  padding-bottom: 0.3em;
+}
