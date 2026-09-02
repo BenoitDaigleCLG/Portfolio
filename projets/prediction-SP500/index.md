@@ -1,3 +1,7 @@
+---
+title: "Prédiction des rendements du SP& 500"
+---
+
 ### Analyse de données (STT-2200) — Automne 2025 (Revue Été 2026)
 
 [← Retour au portfolio](../../)
