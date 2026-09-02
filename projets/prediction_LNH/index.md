@@ -34,16 +34,16 @@ Génération d'un jeu de données enrichi spécifiquement pour la modélisation 
 #### Traitement de la colinéarité
 Avant l'entraînement, une analyse matricielle a permis d'isoler les fortes colinéarités (notamment entre `PLAYMAKER_RATIO` et `SNIPER_RATIO` dont la somme vaut 1, ou encore les redondances entre buts, passes et points totaux). Le retrait des métriques redondantes au profit d'un indicateur synthétique clair (`LAST_P_PER_GP`) a permis de clarifier la structure du signal sans perte d'information.
 
-![Détection de la colinéarité avant traitement](Colinearite.png)
+![Détection de la colinéarité avant traitement](photos/Colinearite.png)
 *Figure 10 : Matrice de corrélation avant nettoyage, mettant en évidence d'importantes redondances structurelles entre les variables de scoring et d'indices corporels.*
 
-![Détection de la colinéarité après sélection des variables](Colinearite_apres.png)
+![Détection de la colinéarité après sélection des variables](photos/Colinearite_apres.png)
 *Figure 11 : Matrice de corrélation après sélection, assurant un jeu de variables décorrélées et informatives pour la forêt aléatoire.*
 
 #### Optimisation par recherche sur grille
 Afin d'obtenir la configuration optimale sans surapprentissage, une recherche par quadrillage (*Grid Search*) a été menée sur un split 70/30 (862 observations d'entraînement / 370 de test), avec encodage one-hot des variables catégorielles (`LAST_LEAGUE`, `PRIMARY_POS`, `NATIONALITY`).
 
-![Grille des hyperparamètres du modèle](params.png)
+![Grille des hyperparamètres du modèle](photos/params.png)
 
 *Figure 12 : Espace de recherche exploré pour calibrer le nombre d'estimateurs, la profondeur maximale et les critères de séparation des arbres.*
 
@@ -56,7 +56,7 @@ Afin d'obtenir la configuration optimale sans surapprentissage, une recherche pa
 
 ### Importance des variables
 
-![Importance des 15 variables les plus prédictives](Importance.png)
+![Importance des 15 variables les plus prédictives](photos/Importance.png)
 *Figure 13 : Classement des variables selon leur contribution à la réduction de l'impureté dans la forêt aléatoire.*
 
 L'analyse de l'importance des variables confirme sans ambiguïté les conclusions de l'étude :
@@ -65,7 +65,7 @@ L'analyse de l'importance des variables confirme sans ambiguïté les conclusion
 
 ### Analyse des résidus et comportement prédictif
 
-![Comparaison entre vrais rangs et rangs prédits](Regression.png)
+![Comparaison entre vrais rangs et rangs prédits](photos/Regression.png)
 *Figure 14 : Distribution des prédictions du modèle par rapport à la diagonale idéale y = x.*
 
 Le graphique révèle un comportement typique des modèles en environnement bruité :
