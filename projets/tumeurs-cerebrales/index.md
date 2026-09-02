@@ -20,15 +20,35 @@ Projet réalisé en équipe de 5 dans le cadre du cours GLO-7030 (Université La
 ### 1. Architecture custom (`architecture_custom.py`)
 Génération dynamique d'un fichier de configuration YOLO11 modifié, intégrant une couche d'attention **PSA** insérée stratégiquement après la branche dédiée aux petits détails (contours fins), avant la tête de détection. L'entraînement s'est fait à résolution réduite (512×512) pour compenser la surcharge calculatoire du mécanisme d'attention.
 
+![Architecture modifiée YOLOv11n avec attention PSA](architecture_psa.png)
+*Figure 1 : Intégration du module PSA dans le neck de YOLOv11n, positionné juste après le bloc C3k2 sur la branche haute résolution pour capturer le contexte global sans perdre les contours fins.*
+
 ### 2. Script d'entraînement (`Main_2.py`)
 Pipeline complet configurant automatiquement le dataset (chemins RoboFlow), chargeant les poids pré-entraînés YOLO11 comme point de départ, puis lançant l'entraînement avec les hyperparamètres du projet (AdamW, seed fixe à 42, early stopping, mosaic augmentation désactivé en fin d'entraînement).
+
+![Courbes d'entraînement et métriques de validation](courbes_entrainement.png)
+*Figure 2 : Évolution des fonctions de perte (box, cls, dfl) et des métriques sur 50 époques. On note une convergence fluide et rapide dès la 20e époque, atteignant un mAP@50 stable supérieur à 95 % sans instabilité ni surapprentissage.*
 
 ### 3. Génération des résultats (`generer_resultats.py`)
 Script d'évaluation calculant les métriques clés (Précision, Rappel, F1-Score, mAP@50) sur les jeux de validation et de test, globalement et par classe pathologique, exportées dans un rapport texte structuré avec Pandas.
 
+---
+
 ## Résultats clés (PSA)
 
-Le module PSA a amélioré toutes les métriques simultanément par rapport au modèle de base, avec la plus forte hausse observée sur la classe **Gliome** (la plus difficile à délimiter en raison de ses contours diffus). Détails complets dans le rapport ci-dessous.
+Le module PSA a amélioré toutes les métriques simultanément par rapport au modèle de base, avec la plus forte hausse observée sur la classe **Gliome** (+0,9 % de mAP@50), historiquement la plus difficile à délimiter en raison de ses contours diffus.
+
+![Comparaison mAP@50 par classe pathologique](table_map50.png)
+*Tableau II : Comparaison des performances de détection (mAP@50) par pathologie entre la Baseline et la variante YOLOv11n-PSA.*
+
+### Analyse d'erreurs et matrice de confusion
+
+![Matrice de confusion YOLOv11n-PSA](confusion_matrix_psa.png)
+*Figure 3 : Matrice de confusion sur le jeu de test.*
+
+L'analyse de la matrice de confusion met en lumière la réalité clinique du modèle :
+- **Excellence sur les tissus sains :** Un score quasi parfait sur la classe *No Tumor* (142 détections correctes sur 143), validant l'absence d'alarmes intempestives sur du parenchyme cérébral sain.
+- **Le défi persistant du Gliome :** Bien que le PSA apporte un gain net sur cette classe, elle concentre l'essentiel des faux négatifs (43 cas classés en arrière-plan/manqués) et des faux positifs (78 boîtes tracées sur l'arrière-plan). Ce comportement illustre le compromis complexe entre sensibilité de détection et délimitation de bordures infiltrantes.
 
 ## Conclusion
 
