@@ -1,3 +1,7 @@
+---
+title: "Détection de tumeurs cérébrales"
+---
+
 ### Apprentissage par réseaux de neurones profonds (GLO-7030) — Hiver 2026
 
 [← Retour au portfolio](../../)
