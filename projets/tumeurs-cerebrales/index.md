@@ -46,13 +46,13 @@ Le module PSA a amélioré toutes les métriques simultanément par rapport au m
 ![Matrice de confusion YOLOv11n-PSA](matrice_confusion.png)
 *Figure 3 : Matrice de confusion sur le jeu de test.*
 
-L'analyse de la matrice de confusion met en lumière la réalité clinique du modèle :
+L'analyse de la matrice de confusion met en lumière la réalité du modèle :
 - **Excellence sur les tissus sains :** Un score quasi parfait sur la classe *No Tumor* (142 détections correctes sur 143).
 - **Le défi persistant du Gliome :** Bien que le PSA apporte un gain net sur cette classe, elle concentre l'essentiel des faux négatifs (43 cas classés en arrière-plan/manqués) et des faux positifs (78 boîtes tracées sur l'arrière-plan). Ce comportement illustre le compromis complexe entre sensibilité de détection et délimitation de bordures infiltrantes.
 
 ## Conclusion
 
-L'attention légère (PSA) s'est révélée l'optimisation la plus stable du projet, améliorant la détection de textures diffuses sans alourdir significativement le modèle — contrairement aux architectures plus complexes testées par l'équipe (CBAM massif, haute résolution), qui imposaient des compromis plus marqués entre sensibilité et précision.
+Le module d'attention (PSA) s'est révélée l'optimisation la plus stable du projet, améliorant la détection de textures diffuses sans alourdir significativement le modèle — contrairement aux architectures plus complexes testées par l'équipe (CBAM massif, haute résolution), qui imposaient des compromis plus marqués entre sensibilité et précision.
 
 ---
 
