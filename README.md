@@ -9,7 +9,7 @@
 
 Mon intérêt pour le code a commencé tout simplement avec ma passion pour les jeux vidéo : je voulais comprendre comment créer mon propre projet. Vers la fin de mon secondaire, j'ai aussi commencé à m'intéresser aux marchés financiers et à gérer mes propres investissements. Faire un bac en finance quantitative a donc été une suite logique.
 
-Avec les avancées impressionnantes de l'IA ces dernières années, j'ai eu envie de plonger à fond dans le domaine. Aujourd’hui, je combine ces deux univers pour développer des modèles d'apprentissage profond et analyser des données complexes, principalement avec Python (PyTorch, Scikit-Learn), R et C++.
+Avec les avancées impressionnantes de l'IA ces dernières années, j'ai eu envie de plonger à fond dans le domaine. Aujourd’hui, je combine ces deux univers pour développer des modèles d'apprentissage profond et analyser des données complexes, principalement avec Python, R et C++.
 
 ##  Projets
 
@@ -50,14 +50,15 @@ Apprentissage des réseaux de neurones profonds et de leur modélisation, métho
 *Septembre 2022 – Décembre 2025*<br>
 Python, C++, R, VBA — compétences élaborées en finance, mathématiques et statistiques.
 
-[Pour accéder à mon relevé de notes](Releve_notes.pdf)
+[Relevé de notes →](Releve_notes.pdf)
 
 ##  Expérience
 
 **Business Process Analyst (stage)** — Trans-Canada Capital, Montréal<br>
 *Mai 2023 – Août 2023*<br>
 Cartographie des processus opérationnels de l'entreprise et facilitation de la compréhension de l'utilisation des données entre les différents départements. Prefect, Microsoft SQL, suite Office.
-[En savoir plus sur mon stage](experiences/stage/)
+
+[Plus d'informations →](experiences/stage/)
 
 ##  Compétences techniques
 
