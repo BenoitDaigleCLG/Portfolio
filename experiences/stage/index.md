@@ -2,12 +2,7 @@
 title: "Benoit Daigle"
 ---
 
-<div style="text-align: center;">
-
 # Stage en suivi de portefeuille et cartographie de processus
-
-</div>
-
 *Trans-Canada Capital (TCC), Montréal — Été 2023*
 
 [← Retour au portfolio](../../)
