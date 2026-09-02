@@ -25,7 +25,7 @@ Stage professionnel réalisé du 8 mai au 18 août 2023 au sein de l'équipe de 
 ### 2. Outils techniques et bases de données
 - **Requêtes et bases de données :** Utilisation quotidienne de **Microsoft SQL** pour consulter et interagir avec les bases de données de l'entreprise.
 - **Automatisation et code :** Familiarisation avec **Prefect**, une application permettant de coordonner et de planifier des scripts à des moments précis de la journée. 
-- **Programmation :** Lecture et compréhension de code **Python** (programmation orientée objet) écrit par mes collègues pour faire le pont avec mes propres cartographies.
+- **Programmation :** Lecture et compréhension de code **Python** et **C++** écrit par mes collègues pour faire le pont avec mes propres cartographies.
 
 ### 3. Analyse stratégique et recommandations corporatives
 - **Diagnostic de l'entreprise :** Réalisation d'une analyse de marché (Modèle de Porter) et d'une matrice FFOM (Forces, Faiblesses, Opportunités, Menaces) de TCC.
