@@ -31,6 +31,10 @@ Stage professionnel réalisé du 8 mai au 18 août 2023 au sein de l'équipe de 
 - **Diagnostic organisationnel :** Réalisation d'une analyse sectorielle (modèle de Porter) et d'une matrice FFOM appliquée aux activités de l'entreprise.
 - **Amélioration continue :** Élaboration de propositions pratiques visant à accélérer l'intégration des nouvelles recrues et à renforcer la synergie et la visibilité entre les départements.
 
+## Appréciation du maître de stage
+
+Au terme de ce mandat, mon stage a été évalué avec la plus haute mention (**« Exceptionnel »**), avec la note maximale sur l'ensemble des critères évalués. Mon superviseur a particulièrement souligné mon autonomie, ma rapidité d'apprentissage face à de nouveaux outils ainsi que mon esprit de synthèse pour structurer et vulgariser des processus complexes. Il a également mis de l'avant ma facilité à communiquer clairement avec les intervenants des différents départements et mon intégration naturelle au sein de l'équipe, ce qui a permis d'élargir mes responsabilités à de nouveaux mandats en cours d'été.
+
 ## Bilan
 
 Ce stage m'a permis de m'intégrer rapidement dans un environnement professionnel exigeant. Mon plus grand accomplissement a été de réussir à schématiser des processus complexes de manière simple, un travail qui a été grandement reconnu par mes collègues pour sa valeur ajoutée, car il permet désormais de sauver un temps précieux dans la recherche d'information interne.
@@ -38,7 +42,3 @@ Ce stage m'a permis de m'intégrer rapidement dans un environnement professionne
 ---
 
 **Technologies et outils utilisés :** Microsoft Visio · Microsoft SQL · Python · Prefect · Microsoft Office (Excel, Teams, Outlook)
-
-## Appréciation du maître de stage
-
-Au terme de ce mandat, mon stage a été évalué avec la plus haute mention (**« Exceptionnel »**), avec la note maximale sur l'ensemble des critères évalués. Mon superviseur a particulièrement souligné mon autonomie, ma rapidité d'apprentissage face à de nouveaux outils ainsi que mon esprit de synthèse pour structurer et vulgariser des processus complexes. Il a également mis de l'avant ma facilité à communiquer clairement avec les intervenants des différents départements et mon intégration naturelle au sein de l'équipe, ce qui a permis d'élargir mes responsabilités à de nouveaux mandats en cours d'été.
