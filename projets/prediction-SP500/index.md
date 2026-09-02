@@ -34,9 +34,9 @@ Le pipeline initial s'appuie sur 20 ans d'historique quotidien combinant indicat
 Durant l'été 2026, j'ai repris ce projet afin d'approfondir les résultats et auditer la robustesse du code. Cette analyse a révélé un biais méthodologique critique dans le pipeline d'entraînement : un **biais d'anticipation (*look-ahead bias*) causé par le chevauchement des cibles (*overlapping target labels*)**.
 
 ### Mécanisme du biais identifié :
-1. **Construction de la cible :** La cible calculée à l'instant $t$ est le rendement cumulé futur $R_{t \to t+21}$.
-2. **Fenêtre glissante pas-à-pas :** Lorsque le modèle est entraîné sur une fenêtre se terminant à $t-1$ pour prédire la direction à l'instant $t$, les dernières lignes du jeu d'entraînement contiennent les cibles $R_{t-20 \to t+1}$, $R_{t-19 \to t+2}$, ..., $R_{t-1 \to t+20}$.
-3. **Fuite d'information (*Data Leakage*) :** Le modèle apprenait à partir d'étiquettes qui incorporaient déjà l'évolution des prix jusqu'à $t+20$. Bien que les variables explicatives (*features*) soient passées, la cible d'entraînement contenait de l'information sur le futur immédiat de la date de test $t$, faussant artificiellement la précision du *walk-forward* et les rendements du backtest.
+1. **Construction de la cible :** La cible calculée à l'instant *t* est le rendement cumulé futur R(t → t+21).
+2. **Fenêtre glissante pas-à-pas :** Lorsque le modèle est entraîné sur une fenêtre se terminant à *t-1* pour prédire la direction à l'instant *t*, les dernières lignes du jeu d'entraînement contiennent les cibles R(t-20 → t+1), R(t-19 → t+2), ..., R(t-1 → t+20).
+3. **Fuite d'information (*Data Leakage*) :** Le modèle apprenait à partir d'étiquettes qui incorporaient déjà l'évolution des prix jusqu'à *t+20*. Bien que les variables explicatives (*features*) soient passées, la cible d'entraînement contenait de l'information sur le futur immédiat de la date de test *t*, faussant artificiellement la précision du *walk-forward* et les rendements du backtest.
 
 Cette révision m'a permis de documenter l'importance cruciale de purger les données d'entraînement (*purging & embargoing*) lors de l'utilisation de cibles multi-horizons en séries temporelles financières.
 
