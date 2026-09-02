@@ -1,5 +1,4 @@
-# Prédiction du rang de repêchage — LNH
-### Méthodes d'analyse de données — Hiver 2026
+### Méthodes d'analyse de données (STT-7335) — Hiver 2026
 
 [← Retour au portfolio](../../)
 
