@@ -50,6 +50,8 @@ Apprentissage des réseaux de neurones profonds et de leur modélisation, métho
 *Septembre 2022 – Décembre 2025*<br>
 Python, C++, R, VBA — compétences élaborées en finance, mathématiques et statistiques.
 
+[Pour accéder à mon relevé de notes](Releve_notes.pdf)
+
 ##  Expérience
 
 **Business Process Analyst (stage)** — Trans-Canada Capital, Montréal<br>
