@@ -16,7 +16,7 @@ Classification d'images de résonance magnétique (4 classes) par modification d
 
 **Outils et bibliothèques :** Python · PyTorch · YOLOv11
 
-<a class="btn" href="projets/tumeurs-cerebrales/">Voir le projet →</a>
+**[Voir le projet →](projets/tumeurs-cerebrales/)**
 
 ### Prédiction du rang de repêchage — LNH
 *Hiver 2026*
@@ -25,7 +25,7 @@ Prédiction du rang de repêchage des joueurs de la LNH à l'aide de régression
 
 **Outils et bibliothèques :** Python · Scikit-Learn · Pandas · NumPy
 
-<a class="btn" href="projets/prediction_LNH/">Voir le projet →</a>
+**[Voir le projet →](projets/prediction_LNH/)**
 
 ### Prédiction des rendements du S&P 500
 *Automne 2025 (Revue Été 2026)*
@@ -34,7 +34,7 @@ Modélisation et prédiction de la direction des rendements à 21 jours via anal
 
 **Outils et bibliothèques :** Python · R · XGBoost · Scikit-Learn · Quantmod
 
-<a class="btn" href="projets/prediction-SP500/">Voir le projet →</a>
+**[Voir le projet →](projets/prediction-SP500/)**
 
 ##  Éducation
 
