@@ -1,5 +1,5 @@
 # Prédiction des rendements du S&P 500
-### Finance quantitative & Apprentissage automatique — Hiver 2026 (Revue Été 2026)
+### Analyse de données — Automne 2025 (Revue Été 2026)
 
 [← Retour au portfolio](../../)
 
@@ -7,7 +7,7 @@
 
 ## Contexte
 
-Projet réalisé dans le cadre du cursus en finance quantitative, visant à évaluer la prédictibilité du signe des rendements à 21 jours (horizon ~1 mois) du S&P 500. L'objectif initial était de concevoir une stratégie de synchronisation de marché (*market timing*) permettant de surperformer une détention passive (*Buy & Hold*) en désinvestissant lors des phases baissières anticipées.
+Projet réalisé dans le cadre du cours en analyse de données, visant à évaluer la prédictibilité du signe des rendements à 21 jours (horizon ~1 mois) du S&P 500. L'objectif initial était de concevoir une stratégie de synchronisation de marché (*market timing*) permettant de surperformer une détention passive (*Buy & Hold*) en désinvestissant lors des phases baissières anticipées.
 
 ## Données et prétraitement (R)
 
