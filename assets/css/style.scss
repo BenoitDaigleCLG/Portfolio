@@ -1,8 +1,6 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
 // Palette "Data Science"
 $header-heading-color: #ffffff;
 $header-bg-color: #0f2540;
@@ -18,6 +16,8 @@ $body-bg: #ffffff;
 $border-color: #dce6ea;
 $table-border-color: #dce6ea;
 $code-bg-color: #f2f6f8;
+
+@import "{{ site.theme }}";
 
 .main-content h1,
 .main-content h2 {
