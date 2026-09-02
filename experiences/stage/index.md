@@ -2,8 +2,8 @@
 title: "Benoit Daigle"
 ---
 
-# Stage en suivi de portefeuille & modélisation opérationnelle
-*Trans-Canada Capital (TCC) — Été 2023*
+# Stage en suivi de portefeuille et cartographie de processus
+*Trans-Canada Capital (TCC), Montréal — Été 2023*
 
 [← Retour au portfolio](../../)
 
@@ -11,33 +11,32 @@ title: "Benoit Daigle"
 
 ## Contexte
 
-Stage professionnel de 15 semaines (mai à août 2023) réalisé au sein de l'équipe du **Middle Office / Suivi de portefeuille** chez Trans-Canada Capital (TCC) à Montréal, une société de gestion d'actifs gérant plus de 30 milliards de dollars (notamment les régimes de retraite d'Air Canada).
+Stage professionnel réalisé du 8 mai au 18 août 2023 au sein de l'équipe de **suivi de portefeuille (Middle Office)** chez Trans-Canada Capital (TCC), une firme de gestion de portefeuille administrant plus de 30 milliards de dollars d'actifs.
 
-**Objectif principal du mandat :** Pallier le manque de documentation interne en cartographiant et en formalisant les processus opérationnels critiques, la circulation des informations entre départements et la chaîne de production des rapports afin de fluidifier le partage de connaissances au sein de la firme.
+**Le mandat :** À mon arrivée, l'entreprise faisait face à un enjeu de documentation : une énorme quantité de tâches devaient être effectuées quotidiennement par différentes équipes, mais le manque de documentation empêchait le partage de connaissances. Mon rôle consistait à cartographier ces processus opérationnels pour rendre l'information accessible et compréhensible pour tous.
 
 ## Responsabilités et réalisations
 
-### 1. Cartographie des processus opérationnels
-- **Modélisation de processus sur Visio :** Schématisation systématique sur **Microsoft Visio** des étapes quotidiennes et des rôles des différentes équipes dans la production des rapports et le suivi des portefeuilles.
-- **Compréhension des flux d'instruments financiers :** Analyse du fonctionnement des données liées aux produits financiers transigés par la firme (obligations, contrats à terme, swaps, options) et des flux d'informations fournis par les fournisseurs de prix.
-- **Synthèse et communication inter-équipes :** Échanges réguliers avec les responsables des différentes tâches afin de comprendre en détail les procédures internes et de centraliser l'information.
+### 1. Cartographie et schématisation des processus
+- **Modélisation sur Visio :** Utilisation intensive de **Microsoft Visio** pour illustrer de manière simple et compréhensive comment les données sont utilisées, à quel moment, et par qui.
+- **Compréhension inter-départementale :** Rencontres et communications fréquentes avec de multiples intervenants de la firme pour bien comprendre les responsabilités de chaque département dans la production des rapports quotidiens.
+- **Analyse des instruments financiers :** Intégration dans mes processus des différents produits transigés par TCC (obligations, futures, swaps, options, *future on bond*) et compréhension du rôle crucial des fournisseurs de prix externes pour la valorisation du portefeuille.
 
-### 2. Environnement de données et outils techniques
-- **Exploration de bases de données :** Utilisation de **Microsoft SQL Server (MSSQL)** et **DBeaver** pour consulter et valider la structure des données utilisées au quotidien par l'équipe.
-- **Familiarisation avec l'infrastructure :** Découverte de plateformes d'automatisation de tâches comme **Prefect** et lecture de scripts d'intégration en **Python** (programmation orientée objet).
+### 2. Outils techniques et bases de données
+- **Requêtes et bases de données :** Utilisation quotidienne de **Microsoft SQL** et **DBeaver** pour consulter et interagir avec les bases de données de l'entreprise.
+- **Automatisation et code :** Familiarisation avec **Prefect**, une application permettant de coordonner et de planifier des scripts à des moments précis de la journée. 
+- **Programmation :** Lecture et compréhension de code **Python** (programmation orientée objet) écrit par mes collègues pour faire le pont avec mes propres cartographies.
 
-### 3. Recommandations organisationnelles
-- Élaboration d'une analyse stratégique interne (matrice FFOM / SWOT et modèle de Porter).
-- Identification de problématiques corporatives et proposition de solutions réalistes pour clarifier les rôles entre départements et améliorer la communication des objectifs à l'échelle de l'entreprise.
+### 3. Analyse stratégique et recommandations corporatives
+- **Diagnostic de l'entreprise :** Réalisation d'une analyse de marché (Modèle de Porter) et d'une matrice FFOM (Forces, Faiblesses, Opportunités, Menaces) de TCC.
+- **Recommandations internes :** Identification de deux problématiques corporatives (le manque de clarté de la hiérarchie pour les nouveaux employés et le manque de communication des objectifs entre les équipes) et présentation de solutions concrètes (création d'une interface hiérarchique et envois de suivis mensuels).
 
-## Évaluation par le maître de stage
+## Bilan
 
-Au terme de ce stage sous la supervision de **William Noreau** (Directeur au Middle Office), mon rendement global a reçu la mention maximale **« Exceptionnel »** :
-- **Note de 5/5 sur l'ensemble des critères :** Compétences analytiques, habiletés de communication, esprit d'équipe, éthique professionnelle et maîtrise des outils technologiques.
-- **Points forts soulignés :** Capacité rapide de synthèse face à des processus complexes, clarté dans la communication, grande autonomie et intégration harmonieuse au sein des équipes de TCC.
+Ce stage m'a permis de m'intégrer rapidement dans un environnement professionnel exigeant. Mon plus grand accomplissement a été de réussir à schématiser des processus complexes de manière simple, un travail qui a été grandement reconnu par mes collègues pour sa valeur ajoutée, car il permet désormais de sauver un temps précieux dans la recherche d'information interne.
 
 ---
 
-**Outils et technologies :** Microsoft SQL Server (MSSQL) · DBeaver · Microsoft Visio · Python · Prefect · Excel
+**Technologies et outils utilisés :** Microsoft Visio · Microsoft SQL · DBeaver · Python · Prefect · Microsoft Office (Excel, Teams, Outlook)
 
-[Voir l'évaluation de stage complète (PDF)](Evaluation_stage_TCC.pdf)
+[Pour accéder à mon évaluation de stage complète (PDF)](Evaluation_stage_TCC.pdf)
