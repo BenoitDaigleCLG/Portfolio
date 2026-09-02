@@ -5,7 +5,7 @@
 
 
 ##  À propos
-Étudiant à la maîtrise en intelligence artificielle à l’Université Laval, j'ai aussi un bac en finance quantitative.
+Étudiant à la maîtrise en intelligence artificielle à l’Université Laval, j'ai aussi un baccalauréat en finance quantitative.
 
 Mon intérêt pour le code a commencé tout simplement avec ma passion pour les jeux vidéo : je voulais comprendre comment créer mon propre projet. Vers la fin de mon secondaire, j'ai aussi commencé à m'intéresser aux marchés financiers et à gérer mes propres investissements. Faire un bac en finance quantitative a donc été une suite logique.
 
