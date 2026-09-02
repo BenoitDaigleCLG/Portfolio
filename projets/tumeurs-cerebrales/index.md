@@ -13,7 +13,7 @@ title: "Benoit Daigle"
 
 Projet réalisé en équipe de 5 dans le cadre du cours GLO-7030 (Université Laval), explorant différentes modifications architecturales de la famille YOLO pour la détection et la localisation de tumeurs cérébrales sur IRM (Gliome, Méningiome, Tumeur pituitaire, Sans tumeur).
 
-**Ma contribution :** conception et implémentation de l'architecture avec mécanisme d'attention **PSA (Position-Sensitive Attention)**, incluant le script d'entraînement et le pipeline de génération des résultats. Le reste du rapport présente les contributions de l'équipe sur les autres axes explorés (CBAM, architecture haute résolution HR-D).
+**Ma contribution :** Implémentation d'une couche avec mécanisme d'attention **PSA (Position-Sensitive Attention)** dans l'architecture de base. Cela inclue le script d'entraînement et le pipeline de génération des résultats. Le reste du rapport présente les contributions de l'équipe sur les autres axes explorés (CBAM, architecture haute résolution HR-D).
 
 ## Ce que j'ai développé
 
