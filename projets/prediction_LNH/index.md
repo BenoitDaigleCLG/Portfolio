@@ -44,6 +44,7 @@ Avant l'entraînement, une analyse matricielle a permis d'isoler les fortes coli
 Afin d'obtenir la configuration optimale sans surapprentissage, une recherche par quadrillage (*Grid Search*) a été menée sur un split 70/30 (862 observations d'entraînement / 370 de test), avec encodage one-hot des variables catégorielles (`LAST_LEAGUE`, `PRIMARY_POS`, `NATIONALITY`).
 
 ![Grille des hyperparamètres du modèle](params.png)
+
 *Figure 12 : Espace de recherche exploré pour calibrer le nombre d'estimateurs, la profondeur maximale et les critères de séparation des arbres.*
 
 ---
