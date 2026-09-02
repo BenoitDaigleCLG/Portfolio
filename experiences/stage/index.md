@@ -39,4 +39,6 @@ Ce stage m'a permis de m'intégrer rapidement dans un environnement professionne
 
 **Technologies et outils utilisés :** Microsoft Visio · Microsoft SQL · Python · Prefect · Microsoft Office (Excel, Teams, Outlook)
 
-[Pour accéder à mon évaluation de stage complète (PDF)](Evaluation_stage_TCC.pdf)
+## Appréciation du maître de stage
+
+Au terme de ce mandat, mon stage a été évalué avec la plus haute mention (**« Exceptionnel »**), avec la note maximale sur l'ensemble des critères évalués. Mon superviseur a particulièrement souligné mon autonomie, ma rapidité d'apprentissage face à de nouveaux outils ainsi que mon esprit de synthèse pour structurer et vulgariser des processus complexes. Il a également mis de l'avant ma facilité à communiquer clairement avec les intervenants des différents départements et mon intégration naturelle au sein de l'équipe, ce qui a permis d'élargir mes responsabilités à de nouveaux mandats en cours d'été.
