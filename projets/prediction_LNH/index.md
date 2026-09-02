@@ -2,8 +2,8 @@
 title: "Benoit Daigle"
 ---
 
-### Méthodes d'analyse de données (STT-7335) — Hiver 2026
-### Prédiction du rang de repêchage
+# Prédiction du rang de repêchage
+*Méthodes d'analyse de données (STT-7335) — Hiver 2026*
 
 [← Retour au portfolio](../../)
 
