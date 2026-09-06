@@ -49,3 +49,5 @@ Cette révision m'a permis de documenter l'importance cruciale de purger les don
 **Outils et bibliothèques :** R (quantmod, TTR, FactoMineR, data.table) · Python (XGBoost, Scikit-Learn, Pandas, NumPy, Matplotlib)
 
 [Voir le poster du projet (PDF)](Poster_projet.pdf) &nbsp;
+
+> **Note de confidentialité :** *Le code source complet de ce projet a été retiré afin de respecter les politiques de propriété intellectuelle de l'Université Laval et d'éviter le plagiat, mais il est disponible en privé sur demande.*
