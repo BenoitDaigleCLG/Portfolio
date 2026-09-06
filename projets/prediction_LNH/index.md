@@ -80,4 +80,4 @@ La modélisation démontre que l'efficacité pondérée par la difficulté de la
 
 **Outils et bibliothèques :** Python · Scikit-Learn · Pandas · NumPy · Seaborn / Matplotlib
 
-[Voir le rapport complet (PDF)](Rapport_LNH.pdf) &nbsp;|&nbsp; [Voir le code sur GitHub](https://github.com/BenoitDaigleCLG/Portfolio/tree/main/projets/prediction_LNH/code)
+[Voir le rapport complet (PDF)](Rapport_LNH.pdf) &nbsp;
