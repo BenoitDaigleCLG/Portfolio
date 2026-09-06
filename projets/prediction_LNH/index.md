@@ -81,3 +81,5 @@ La modélisation démontre que l'efficacité pondérée par la difficulté de la
 **Outils et bibliothèques :** Python · Scikit-Learn · Pandas · NumPy · Seaborn / Matplotlib
 
 [Voir le rapport complet (PDF)](Rapport_LNH.pdf) &nbsp;
+
+> **Note de confidentialité :** *Le code source complet de ce projet a été retiré afin de respecter les politiques de propriété intellectuelle de l'Université Laval et d'éviter le plagiat, mais il est disponible en privé sur demande.*
