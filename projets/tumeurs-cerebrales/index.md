@@ -59,3 +59,5 @@ Le module d'attention (PSA) s'est révélée l'optimisation la plus stable du pr
 **Outils et bibliothèques :** Python · PyTorch · Ultralytics YOLO11 · Pandas · Google Colab
 
 [Voir le rapport complet (PDF)](rapport-tumeurs-cerebrales.pdf) &nbsp;
+
+> **Note de confidentialité :** *Le code source complet de ce projet a été retiré afin de respecter les politiques de propriété intellectuelle de l'Université Laval et d'éviter le plagiat, mais il est disponible en privé sur demande.*
